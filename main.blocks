@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="{rRX[yZEHFiACtb~2_^Z" x="0" y="0"/><block type="device_forever" id="mktJIDD(PUUP9f$Bx5$?" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="*ie.s6S;F~s^W4SeK3$V"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="-|z$/DVpQ:6Fu1y2YVv("><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="MkUZj8QRq(Y?lHo16z@G"/></value><value name="B"><shadow type="math_number" id="Piw@z*Zy~@-aLeGR,F[U"><field name="NUM">28</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="EOhseoO8*C2mbFvQt{Z="><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="SoundExpression_playUntilDone" id=";d(%^hDm/a!90Dn79#z4"><field name="this">soundExpression.spring</field></block></next></block></statement><value name="IF1"><block type="logic_compare" id="kaxmDY.u8ug31URxY#kh"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="llY2PymEb8Phde[L=:[J"/></value><value name="B"><shadow type="math_number" id="-QIuG3kJnf.6xi~.c!ch"><field name="NUM">4</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="ahRo0PfL.VCLo[%%A#iT"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # . # # 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="SoundExpression_playUntilDone" id="K[FMkD(!P4k`Y1|{:AHV"><field name="this">soundExpression.sad</field></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="T2IC1|rNmRjI{u7N4UvG"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_button_event" id="0zeg/q*9sG)]/a1,^7Bk" x="241" y="157"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id="ab7EHp7SI!Kbo@r!3U~;"><value name="number"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_temperature" id="U`l~YKF5{Tb,BP]is($]"/></value></block></statement></block></xml>
